@@ -240,7 +240,7 @@ CREATE TABLE IF NOT EXISTS `Pedido` (
 );
 
 ALTER TABLE `Pedido`
-ADD FOREIGN KEY(`id_cliente`) REFERENCES `Cliente`(`id_usuario`) ON UPDATE NO ACTION ON DELETE RESTRICT;
+ADD FOREIGN KEY(`id_cliente`) REFERENCES `Cliente`(`id_usuario`) ON UPDATE NO ACTION ON DELETE CASCADE;
 
 
 -- =========================================================================
