@@ -374,10 +374,10 @@ SET FOREIGN_KEY_CHECKS = 1;
 INSERT INTO `Impuesto` (`id_impuesto`, `nombre`, `porcentaje`, `tipo`, `activo`) 
 VALUES (1, 'IGV 18%', 0.1800, 'PORCENTAJE', true);
 
-INSERT INTO `AlcoholImpuesto` (`id_alcohol_impuesto`, `minimo`, `maximo`, `porcentaje_precio`, `valor`) VALUES
-(1, 0, 10, 0, 0.00),   
-(2, 11, 20, 20, 1.50), 
-(3, 21, 50, 40, 3.50); 
+INSERT INTO `AlcoholImpuesto` (`id_alcohol_impuesto`, `minimo`, `maximo`, `valor`) VALUES
+(1, 0, 10, 0.00),   
+(2, 11, 20, 1.50), 
+(3, 21, 50, 3.50); 
 
 INSERT INTO `Marca` (`id_marca`, `nombre`) VALUES
 (1, 'Beefeater'),(2, 'Bombay'),(3, 'Tanqueray'),(4, 'Hendrick\'s'),(5, 'Jägermeister'),
