@@ -77,7 +77,6 @@ CREATE TABLE IF NOT EXISTS `AlcoholImpuesto` (
     `id_alcohol_impuesto` INTEGER NOT NULL AUTO_INCREMENT,
     `minimo` INTEGER NOT NULL,
     `maximo` INTEGER NOT NULL,
-    `porcentaje_precio` INTEGER NOT NULL,
     `valor` DOUBLE NOT NULL,
     PRIMARY KEY(`id_alcohol_impuesto`)
 );
